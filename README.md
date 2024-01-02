@@ -7,6 +7,12 @@
 - [ ] Learn Linux https://tryhackme.com/room/zthlinux (private)
 - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting (private)
 
+**Linux Fundamentals** https://tryhackme.com/module/linux-fundamentals
+- [ ] part1 https://tryhackme.com/room/linuxfundamentalspart1
+- [ ] part2 https://tryhackme.com/room/linuxfundamentalspart2
+- [ ] part3 https://tryhackme.com/room/linuxfundamentalspart3
+
+
 **Introductory CTFs to get your feet wet**
 
 - [x] Google Dorking https://tryhackme.com/room/googledorking
