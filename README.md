@@ -9,7 +9,7 @@
 
 **Introductory CTFs to get your feet wet**
 
-- [ ] Google Dorking https://tryhackme.com/room/googledorking
+- [x] Google Dorking https://tryhackme.com/room/googledorking
 - [ ] OHsint https://tryhackme.com/room/ohsint
 - [ ] Shodan.io https://tryhackme.com/room/shodan
 
