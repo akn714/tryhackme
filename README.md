@@ -8,7 +8,7 @@
 - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting (private)
 
 **Linux Fundamentals** https://tryhackme.com/module/linux-fundamentals
-- [ ] part1 https://tryhackme.com/room/linuxfundamentalspart1
+- [x] part1 https://tryhackme.com/room/linuxfundamentalspart1
 - [ ] part2 https://tryhackme.com/room/linuxfundamentalspart2
 - [ ] part3 https://tryhackme.com/room/linuxfundamentalspart3
 
