@@ -9,8 +9,8 @@
 
 **Linux Fundamentals** https://tryhackme.com/module/linux-fundamentals
 - [x] part1 https://tryhackme.com/room/linuxfundamentalspart1
-- [ ] part2 https://tryhackme.com/room/linuxfundamentalspart2
-- [ ] part3 https://tryhackme.com/room/linuxfundamentalspart3
+- [x] part2 https://tryhackme.com/room/linuxfundamentalspart2
+- [x] part3 https://tryhackme.com/room/linuxfundamentalspart3
 
 
 **Introductory CTFs to get your feet wet**
