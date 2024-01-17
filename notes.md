@@ -60,19 +60,26 @@ drwxr-xr-x 2 tryhackme tryhackme 4096 May  4  2021 myfolder
 * `cron` is a process
 * Crontab is one of the processes that is started during boot, which is responsible for facilitating and managing cron jobs.
 
-##### package installation
-* first we have to add GPG (Gnu Privacy Guard) keys of the software that has to be downloaded
-  * for example: downlading sublime text
-  * first we need to add the GPG key for the developers of Sublime Text 3
-  `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`
-* Now that we have added this key to our trusted list, we can now add Sublime Text 3's repository to our apt sources list. A good practice is to have a separate file for every different community/3rd party repository that we add.
-  * Let's create a file named sublime-text.list in /etc/apt/sources.list.d and enter the repository information like so:
-  * `touch sublime-text.list`
-  * And now use Nano or a text editor of your choice to add & save the Sublime Text 3 repository into this newly created file:
-  * `echo 'deb https://download.sublimetext.com/ apt/stable/' > sublime-text.list`
-* After we have added this entry, we need to update apt to recognise this new entry -- this is done using the `apt update` command
-* Once successfully updated, we can now proceed to install the software that we have trusted and added to apt using `apt install sublime-text`
+* package installation
+  * first we have to add GPG (Gnu Privacy Guard) keys of the software that has to be downloaded
+    * for example: downlading sublime text
+    * first we need to add the GPG key for the developers of Sublime Text 3
+    `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`
+  * Now that we have added this key to our trusted list, we can now add Sublime Text 3's repository to our apt sources list. A good practice is to have a separate file for every different community/3rd party repository that we add.
+    * Let's create a file named sublime-text.list in /etc/apt/sources.list.d and enter the repository information like so:
+    * `touch sublime-text.list`
+    * And now use Nano or a text editor of your choice to add & save the Sublime Text 3 repository into this newly created file:
+    * `echo 'deb https://download.sublimetext.com/ apt/stable/' > sublime-text.list`
+  * After we have added this entry, we need to update apt to recognise this new entry -- this is done using the `apt update` command
+  * Once successfully updated, we can now proceed to install the software that we have trusted and added to apt using `apt install sublime-text`
 
-##### removing packages
-Removing packages is as easy as reversing. This process is done by using the `add-apt-repository --remove ppa:PPA_Name/ppa` command or by manually deleting the file that we previously added to. Once removed, we can just use `apt remove [software-name-here]` i.e. `apt remove sublime-text`
+* removing packages
+  * Removing packages is as easy as reversing. This process is done by using the `add-apt-repository --remove ppa:PPA_Name/ppa` command or by manually deleting the file that we previously added to. Once removed, we can just use `apt remove [software-name-here]` i.e. `apt remove sublime-text`
 
+#### [13 jan 2024]
+* OSINT (Open Source Intelligence): It is the act of gathering and analyzing publicly available data for intelligence purposes.
+* wigle.net: get location using Bssid
+* BSSID: Basic Service Set Identifier
+  * The BSSID is a 48bit identity used to identify a particular BSS (Basic Servie Set) within as area.
+* WAP: Wireless Application Protocol
+  * Wireless Application Protocol is a technical standard for accessing information over a mobile wireless network.
