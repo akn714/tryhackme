@@ -83,3 +83,4 @@ drwxr-xr-x 2 tryhackme tryhackme 4096 May  4  2021 myfolder
   * The BSSID is a 48bit identity used to identify a particular BSS (Basic Servie Set) within as area.
 * WAP: Wireless Application Protocol
   * Wireless Application Protocol is a technical standard for accessing information over a mobile wireless network.
+  
