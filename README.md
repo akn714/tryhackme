@@ -7,7 +7,7 @@
 - [ ] Learn Linux https://tryhackme.com/room/zthlinux (private)
 - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting (private)
 
-**Pentesting https://tryhackme.com/module/introduction-to-offensive-pentesting**
+**Pentesting** https://tryhackme.com/module/introduction-to-offensive-pentesting
 - [ ] pentesting fundamentalas https://tryhackme.com/room/pentestingfundamentals
 - [ ] principles of security https://tryhackme.com/room/principlesofsecurity
 
