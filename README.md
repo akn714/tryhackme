@@ -8,7 +8,7 @@
 - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting (private)
 
 **Pentesting** https://tryhackme.com/module/introduction-to-offensive-pentesting
-- [ ] pentesting fundamentalas https://tryhackme.com/room/pentestingfundamentals
+- [ ] pentesting fundamentals https://tryhackme.com/room/pentestingfundamentals
 - [ ] principles of security https://tryhackme.com/room/principlesofsecurity
 
 **Linux Fundamentals** https://tryhackme.com/module/linux-fundamentals
@@ -25,7 +25,8 @@
 
 # Level 2 - Tooling
 - [x] Tmux https://tryhackme.com/room/rptmux
-- [ ] Nmap https://tryhackme.com/room/rpnmap
+- [ ] Nmap https://tryhackme.com/room/rpnmap (private)
+- [ ] Nmap https://tryhackme.com/room/furthernmap
 - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
 - [ ] Sublist3r https://tryhackme.com/room/rpsublist3r
 - [ ] Metasploit https://tryhackme.com/room/rpmetasploit
