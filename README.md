@@ -10,6 +10,7 @@
 **Pentesting https://tryhackme.com/module/introduction-to-offensive-pentesting**
 - [ ] pentesting fundamentalas https://tryhackme.com/room/pentestingfundamentals
 - [ ] principles of security https://tryhackme.com/room/principlesofsecurity
+
 **Linux Fundamentals** https://tryhackme.com/module/linux-fundamentals
 - [x] part1 https://tryhackme.com/room/linuxfundamentalspart1
 - [x] part2 https://tryhackme.com/room/linuxfundamentalspart2
