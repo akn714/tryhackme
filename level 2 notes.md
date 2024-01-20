@@ -15,3 +15,10 @@ tmux ls      # list all the tmux sessions
 ```sh
 tmux new -s {sessions name} # create a new session with {sessions name} session name
 ```
+
+### Nmap
+* Every computer has total of 65535 available ports
+* HTTP service -> port 80
+* HTTPS service -> port 443
+* Starting any attack with a port scan
+* Nmap does port scanning
