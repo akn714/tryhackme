@@ -46,4 +46,27 @@ tmux new -s {sessions name} # create a new session with {sessions name} session 
     * If the connection can not be established then it throws an error and the process doesn't procced forward.
     * If the connection can be established then it's the job of session layer to maintain it, as well as to co-operate with the session layer of the host/client.
 * 4: Transport
-    * 
+    * First purpose of this layer is to choose the protocol over which the data is to be transmitted.
+    * The 2 protocols used by this layer are:
+        * 1. TCP (Transmission Control Protocol)
+        * 2. UDP (User Datagram Protocol)
+    * With TCP the transmission is connection based which means that a connection between the computers is established adn maintained for the duration of the request.
+    * In UDP data is transmitted to the receiving computer, if the receiving computer can't keep up then that's it's problem.
+    * The UDP is usually used in video streaming, that why when the connection is bad then the video is pixelated.
+    * conclusion:
+        * TCP is used when data is important instead of speed. (eg. File sharing)
+        * UDP is used when speed is important instead of data. (eg. Video streaming)
+    * When Protocol is selected, the transport layer then divides the tramission up into bite-sized pieces (for TCP these are called segments, for UDP they're called datagrams)
+* 3: Network
+    * This layer is responsible for locating the destination of your request.
+    * This layer focuses on IP addresses (IPv4).
+    * 192.168.1.1 is a common address for a home router.
+* 2: Data Link
+    * This layer focuses on physical (MAC) address of the remote computer.
+    * It receives a packet from the network layer (that includes the IP address for the  remote computer) and adds in the physical (MAC) address of the receiving endpoint.
+    * Inside a network enabled computer is a NIC (Network Interface Card) which comes with a unique MAC (Media Access Control) address to identify it.
+    * When information is sent across a network, it's actually the physical address that is used to identify where exactly to send the information.
+    * The data link layer serves an important function when it receives data, as it checks the received information to make sure that it hasn't been corrupted during transmission, which could well happen when the data is transmitted by layer 1 (The physical layer).
+* 1: Physical
+    * This is the hardware of the computer.
+    * This layer converts binary data of the transmission into signals and transmit them across the network, as well as receive incoming signals and convert them back into binary data.
