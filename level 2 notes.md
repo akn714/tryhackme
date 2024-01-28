@@ -70,3 +70,16 @@ tmux new -s {sessions name} # create a new session with {sessions name} session 
 * 1: Physical
     * This is the hardware of the computer.
     * This layer converts binary data of the transmission into signals and transmit them across the network, as well as receive incoming signals and convert them back into binary data.
+
+**Encapsulation**
+
+<img src='encapsulation.jpg'>
+
+* When the data is passed down in each layer of the model, headers of each layer is added to data, This process is known as Encapsulation in OSI Model.
+* In stage 1 data is in Application layer (layer 7), data is passed down with adding perticular headers in every layer until the Physical layer (layer 1) comes.
+* Additional security layer is added while the data is in Data Link layer (layer 6), a tailer is added at the end of data that is used to verify that the data is not been corrupted on transmission.
+
+**De-Encapsulation**
+
+* It is the reverse process of Encapsulation.
+* Same things happen in reverse direction.
