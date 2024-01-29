@@ -23,7 +23,6 @@ tmux new -s {sessions name} # create a new session with {sessions name} session 
 * Starting any attack with a port scan
 * Nmap does port scanning
 
-#### TCP
 
 ### OSI Model
 * Layers
@@ -83,3 +82,46 @@ tmux new -s {sessions name} # create a new session with {sessions name} session 
 
 * It is the reverse process of Encapsulation.
 * Same things happen in reverse direction.
+
+### TCP/IP Model
+* The TCP/IP Model consists of 4 layers
+    * 1: Application
+    * 2: Transport
+    * 3: Internet
+    * 4: Network Interface
+
+**OSI Model and TCP/IP Model comparision**
+<table style="border: 1px solid #80808086; border-collapse: collapse;">
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <th style="border: 1px solid #80808086; border-collapse: collapse;">OSI Model</th>
+        <th style="border: 1px solid #80808086; border-collapse: collapse;">TCP/IP Model</th>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Application</td>
+        <td style="border: 1px solid #80808086; border-collapse: collapse;" rowspan="3">Application</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Presentation</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Session</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Transport</td>
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Transport</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Network</td>
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Internet</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Data Link</td>
+        <td style="border: 1px solid #80808086; border-collapse: collapse;" rowspan="2">Network Interfaces</td>
+    </tr>
+    <tr style="border: 1px solid #80808086; border-collapse: collapse;">
+        <td style="border: 1px solid #80808086; border-collapse: collapse;">Physical</td>
+    </tr>
+</table>
+
+
+
