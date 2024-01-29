@@ -1,6 +1,8 @@
 ### tmux
 * Cheat sheet link: https://imgur.com/bL9Dn3U
+
 <img src='https://imgur.com/bL9Dn3U'>
+
 * tmux is a tool to run multiple sessions on a single terminal
 ```sh
 tmux # command to start a new session
